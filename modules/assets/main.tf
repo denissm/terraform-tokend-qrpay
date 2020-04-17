@@ -6,7 +6,7 @@ resource tokend_asset "QRP" {
   trailing_digits_count       = 2
 
   details = {
-    name = "Qr-Pay"
+    name = "QR-Pay"
   }
 
   policies = [
