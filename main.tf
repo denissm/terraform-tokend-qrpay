@@ -27,7 +27,6 @@ module "accounts" {
   source = "modules/accounts"
   general_account_role = "${module.account_roles.general_account_role}"
 
-  rec_payments_signer_role = "${module.signer_roles.rec_payments_signer_role}"
   default_signer_role = "${module.signer_roles.default_signer_role}"
 }
 
