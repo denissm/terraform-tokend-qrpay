@@ -87,3 +87,7 @@ resource tokend_key_value "general_change_role_tasks" {
   value_type = "uint32"
   value      = "0"
 }
+
+output "general_account_role" {
+  value = "${tokend_account_role.general.id}"
+}
