@@ -277,10 +277,6 @@ module "key_values" {
   asset_type_default = "${var.asset_type_default}"
 }
 
-module "assets" {
-  source = "modules/assets"
-}
-
 module "signers" {
   source = "modules/signers"
   license_signer_role = "${module.signer_roles.license_signer_role}"
